@@ -1,0 +1,13 @@
+Flask == 1.0.2
+uwsgi == 2.0.17
+mysql-connector-python-rf == 2.2.2
+sqlalchemy
+flask-restful
+flask-sqlalchemy
+flask_marshmallow
+marshmallow-sqlalchemy
+pylint
+pylint-flask
+pylint_flask_sqlalchemy
+mysqlclient
+flask-serialize
