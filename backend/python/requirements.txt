@@ -11,3 +11,5 @@ pylint-flask
 pylint_flask_sqlalchemy
 mysqlclient
 flask-serialize
+pycryptodome
+pycrypto

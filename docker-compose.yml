@@ -1,37 +1,49 @@
 version: "3"
 
 services:
-#  backend:
-#    build: ./backend
-#    image: backend
-#    container_name: backend_container
-#    links:
-#      - mysql
-#    ports:
-#      - "3031:3031"
-#    environment:
-#      TZ: "Asia/Tokyo"
-#    volumes:
-#      - ./backend/python:/var/www/
-
-  flaskbackend:
-    build: ./flaskbackend
-    image: flaskbackend
-    container_name: flaskbackend_container
+  backend:
+    build: ./backend
+    image: backend
+    container_name: backend_container
     links:
       - mysql
     ports:
-    - "3032:3031"
+      - "3031:3031"
     environment:
-      BOILERPLATE_ENV: "dev"
+      TZ: "Asia/Tokyo"
     volumes:
-    - ./flaskbackend:/var/www/
+      - ./backend/python:/var/www/
+
+#  flaskbackend:
+#    build: ./flaskbackend
+#    image: flaskbackend
+#    container_name: flaskbackend_container
+#    links:
+#      - mysql
+#    ports:
+#    - "3032:3031"
+#    environment:
+#      BOILERPLATE_ENV: "dev"
+#    volumes:
+#    - ./flaskbackend:/var/www/
+  
+  # storeapp:
+  #   build: ./storeapp
+  #   image: storeapp
+  #   container_name: storeapp_container
+  #   links:
+  #     - mysql
+  #   ports:
+  #     - "3033:3031"
+  #   volumes:
+  #     - ./storeapp:/var/www/
+
   frontend:
     build: ./frontend
     image: frontend
     container_name: frontend_container
     links:
-      - flaskbackend
+      - backend
     ports:
       - "80:80"
     environment:

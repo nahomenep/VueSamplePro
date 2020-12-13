@@ -1,0 +1,13 @@
+2020-12-07 00:04:32,128 - spam_application - INFO - creating an instance of auxiliary_module.Auxiliary
+2020-12-07 00:04:32,137 - spam_application - INFO - created an instance of auxiliary_module.Auxiliary
+2020-12-07 00:04:32,144 - spam_application - INFO - calling auxiliary_module.Auxiliary.do_something
+2020-12-07 00:04:32,146 - spam_application - INFO - finished auxiliary_module.Auxiliary.do_something
+2020-12-07 00:04:32,147 - spam_application - INFO - calling auxiliary_module.some_function()
+2020-12-07 00:04:32,150 - spam_application - INFO - done with auxiliary_module.some_function()
+2020-12-07 00:05:37,420 - spam_application - INFO - creating an instance of auxiliary_module.Auxiliary
+2020-12-07 00:09:47,537 - spam_application - INFO - creating an instance of auxiliary_module.Auxiliary
+2020-12-07 00:09:50,164 - spam_application - INFO - creating an instance of auxiliary_module.Auxiliary
+2020-12-07 00:09:50,164 - spam_application - INFO - creating an instance of auxiliary_module.Auxiliary
+2020-12-07 00:13:30,083 - spam_application - INFO - creating an instance of auxiliary_module.Auxiliary
+Protocol problem: connection reset
+%(asctime)-15s %(clientip)s %(user)-8s %(message)s

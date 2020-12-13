@@ -1,0 +1,10 @@
+2020-12-06 23:13:26,954 192.168.0.1 fbloggs  Protocol problem: connection reset
+2020-12-06 23:13:49,900 192.168.0.1 fbloggs  Protocol problem: connection reset
+2020-12-06 23:14:40,054 192.168.0.1 fbloggs  Protocol problem: connection reset
+ERROR:uwsgi_file__var_www_run:The sky is so blue
+INFO:uwsgi_file__var_www_run:The sky is so blue
+2020-12-06 23:37:34,222 192.168.0.1 fbloggs  Protocol problem: connection reset
+2020-12-06 23:38:57,582 192.168.0.1 fbloggs  Protocol problem: connection reset
+2020-12-06 23:40:02,215 192.168.0.1 fbloggs  Protocol problem: connection reset
+2020-12-06 23:40:02,221 192.168.0.1 fbloggs  Protocol problem: connection reset
+2020-12-07 00:25:13,580 192.168.0.1 fbloggs  Protocol problem: connection reset

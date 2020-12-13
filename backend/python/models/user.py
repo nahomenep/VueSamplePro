@@ -1,9 +1,8 @@
-from flask import Flask, request, jsonify
-from flask_sqlalchemy import SQLAlchemy, Model,
-from flask_marshmallow import Marshmallow 
+from . db import db
 
-class User(Model):
-    id = Column(db.Integer, primary_key=True)
+class UserModel(db.Model):
+    __tablename__ = "users"
+    id = db.Column(db.Integer, primary_key=True)
     firstname = db.Column(db.String(30))
     lastname = db.Column(db.String(30))
     email = db.Column(db.String(40))
